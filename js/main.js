@@ -2,7 +2,7 @@ const max_number = 500;
 let guesses = [];
 
 const generate_number = (max) => {
-    return Math.floor(Math.random() * max);
+    return Math.round(Math.random() * max);
 };
 
 const guess = (my_guess, answer, guesses_array) => {
